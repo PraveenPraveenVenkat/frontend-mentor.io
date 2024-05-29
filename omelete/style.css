@@ -1,0 +1,138 @@
+
+body{
+    font-family: "Outfit",sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    background-color: hsl(30,54%,90%);
+    color: hsl(24, 5%, 18%);
+}
+.container{
+ background-color: white;
+ max-height: fit-content;
+ max-width: 44rem;
+ border-radius: 18px;
+ margin: 8rem  auto;
+ display: flex;
+ align-items: center;
+
+}
+.card{
+    padding: 2.5rem;
+    align-items: center;
+    max-width: auto;
+}
+img{
+    width: 100%;
+    border-radius: 15px;
+}
+h1{
+    font-family: "Young Serif", serif;
+    font-weight: 450;
+    font-size: 2.5rem;
+}
+h2{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-size: 1.7rem;
+    color:hsl(332, 51%, 32%);
+}
+h3{
+    margin-left: 1.5rem;
+    color: hsl(332, 51%, 32%);
+}
+.preparation{
+    background-color: rgb(211, 166, 211);
+    margin: top 2.5em;
+    padding: 1rem 1rem;
+    border-radius: 15px;
+}
+.preparation ul{
+    list-style: none;
+}
+
+.preparation ul li::before{
+    color: hsl(332, 51%, 32%);
+    content: "\2022";
+    font-weight: bold;
+    display: inline-block;
+    margin-left: -1.5rem;
+    margin-right: 2rem;
+
+}
+.ingredients{
+    padding: .5rem 0;
+}
+
+.ingredients ul{
+    list-style: none;
+}
+
+
+.ingredients ul li::before{
+    color: hsl(14, 45%, 36%);
+    content: "\2022";
+    font-weight: bold;
+    display: inline-block;
+    margin-left: -2rem;
+    margin-right: 1.5rem;
+}
+li{
+    padding: 5px;
+}
+.Instruction{
+padding: 0.5rem 0;
+}
+.instructions strong{
+    font-weight: 550;
+}
+ol{
+    list-style: none;
+}
+ol li{
+    counter-increment: num;
+}
+ol li ::before{
+    content: counter(num) "."; 
+    margin-right: 2rem;
+    margin-left: -2rem;
+    font-weight: bold; 
+    color: hsl(14, 45%, 36%);
+}
+.nutrition{
+    padding: 0.5rem 0;
+}
+table{
+    width: 100%;
+    margin-left: -1 rem;
+}
+td{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    border-bottom: 1px solid grey;
+}
+#row4 td{
+    border-bottom: none;
+}
+#name td{
+    text-align: left;
+    margin-left: 2rem;
+}
+#number{
+    font-weight: 700;
+    color: hsl(14, 45%, 36%);
+}
+footer{
+    position: static;
+    bottom: 0;
+    width: 100%;
+    font-weight: 400;
+    font-family: "Outfit", sans-serif;
+
+}
+
+.attribution{
+    text-align: center;
+}
+
