@@ -30,9 +30,10 @@ color: aliceblue;
 .link{
     color: aliceblue;
 }
-.link.li{
-     background-color: bisque;
-      
+.link{
+     justify-content: center;
+     margin-top: 10px;
+      border-radius: 7px;
 }
 /*
 body{
