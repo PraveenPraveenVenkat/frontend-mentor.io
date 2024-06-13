@@ -2,6 +2,17 @@
  * @param {number[]} nums
  * @return {boolean}
  */
+// Corrected code
+export const containsDuplicate = function(nums) {
+    const seen = new Set();
+    for (const num of nums) {
+        if (seen.has(num)) {
+            return true;
+        }
+        seen.add(num);
+    } 
+    return false;
+};
 /*
 export const containsDuplicate = function (nums) {
 
@@ -38,16 +49,6 @@ console.log(containsDuplicate(array2)); // Outputs: true
 }
 */
 // Corrected code
-export const containsDuplicate = function(nums) {
-    const seen = new Set();
-    for (const num of nums) {
-        if (seen.has(num)) {
-            return true;
-        }
-        seen.add(num);
-    } 
-    return false;
-};
 
 // Ensure there are no missing statements or declarations below this point
 // Corrected code
