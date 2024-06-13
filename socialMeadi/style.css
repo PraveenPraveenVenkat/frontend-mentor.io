@@ -27,8 +27,22 @@ h2{
 .to{
 color: aliceblue;
 }
-.link{
-    color: aliceblue;
+
+button a{
+    text-decoration: none;
+}
+button{
+    background-color: yellow;
+}
+.link ul{
+    list-style-type: none
+}
+.link ul li a:hover{
+    color: aliceblue; 
+    background-color: black;
+}
+.linnk ul li a{
+    text-decoration: none;
 }
 .link{
      justify-content: center;
