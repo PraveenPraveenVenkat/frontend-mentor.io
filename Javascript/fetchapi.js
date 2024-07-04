@@ -1,4 +1,4 @@
-fetch('https://api-xxx.com/endpoint', {
+fetch('https://api-.com/endpoint', {
     method: 'POST',
    body: JSON.stringify({id: "200"})
   }).then(response => {
