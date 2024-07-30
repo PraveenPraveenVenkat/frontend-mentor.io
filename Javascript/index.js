@@ -1,7 +1,6 @@
- // Named function
-// function RocketToMars() {
-    //return 'BOOM!';
-  //}
+  /*Named function
+ function RocketToMars() {
+    return 'BOOM!' //}
 
   class Song {
     constructor() {
@@ -27,8 +26,22 @@
       console.log(`Bake a ${this.size} Pizza`);
     }
   }
-  const myPizza = new Pizza ();
-  myPizza.bake(); 
+  const myPizza = new Pizza ();  
+  myPizza.bake();
+   */
+  
+  const isMailSent = true;
+
+if (isMailSent === true) {
+  console.log('Mail sent to recipient');
+} else {
+  Console.log('Print The Statement');
+}
+isMailSent();
+
+
+
+
   /**
   /
   // Correctly create an instance of the Pizza class
