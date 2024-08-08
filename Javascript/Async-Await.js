@@ -2,7 +2,7 @@ function helloWorld() {
     return new Promise(resolve => {
       setTimeout(() => {
         resolve('Hello World!');
-      }, 200);
+      }, 2000);
     });
   }
   
@@ -12,8 +12,8 @@ function helloWorld() {
   }
   
   const msg1 = async () => { //Async Arrow Function
-    const msg = await helloWorld(2);
-    console.log('Message:', msg);
+    const msg = await helloWorld();
+    console.log('Print the', msg1);
   }
   
   msg(); // Message: Hello World! <-- after 2 seconds
