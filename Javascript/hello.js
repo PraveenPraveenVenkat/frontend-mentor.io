@@ -63,19 +63,21 @@
 //   data.pop();
 //   console.log(data);
 
-  const fruits = ["apple", "orange", "banana"];
+//   const fruits = ["apple", "orange", "banana"];
 
-   for (let i = fruits.length - 1; i >= 0; i--) {
-      console.log(`${fruits[i]}`);
-      //log(`${i}. ${fruits[i]}`);
+//    for (let i = fruits.length - 1; i >= 0; i--) {
+//       console.log(`${fruits[i]}`);
+//       //log(`${i}. ${fruits[i]}`);
 
-}
+// }
 
 // => 2. banana
 // => 1. orange
 // => 0. apple
+  
+  // console.log( abcd);
+  // let abcd 
 
-  
-  
-  
-  
+
+  const {4:b} = [1,2,3,4,5,6];
+  console.log(b);
